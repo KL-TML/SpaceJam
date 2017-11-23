@@ -1,0 +1,110 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica;
+  line-height: 1.5;
+  background-image: url("https://files.slack.com/files-tmb/T056AV14H-F84LJLN21-bc5d1438d2/pasted_image_at_2017_11_22_06_42_pm_1024.png")
+}
+
+header {
+  background-color: black;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 36px;
+  font-weight: bolder;
+  text-decoration-color: white;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+footer {
+  color: white;
+  background-color: black;
+  padding: 15px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+h1 {
+  border-bottom: 5px solid black;
+}
+
+
+
+	@media screen and (min-width: 768px) {
+		/*#menu {
+			display: none;
+		}*/
+   main {
+     margin-left: 0;
+   }
+	}
+
+
+
+
+
+
+
+@media only screen and (min-width: 540px) {
+  main{
+    margin-left: 0;
+  }
+  h1{
+    color: pink;
+}
+.trailer{
+  padding-top: 20px;
+  margin-left:12%;
+}
+
+.bugs{
+  height: auto;
+   width: auto;
+
+}
+
+@media only screen and (min-width: 800px) {
+  .trailer{
+    padding-top: 20px;
+    margin-left:50%;
+  }
+  h1{
+    color: blue;
+}
+
+.trailer{
+  padding-top: 20px;
+  margin-left:45%;
+}
+
+
+/*{
+		margin: 0;
+		padding: 0;
+	}
+	ul {
+		width:100%;
+	}
+
+	li {
+		width:33%;
+		float:left;
+		border-right: 1px solid #eee;
+	}
+	li:last-child {
+		border-right:none;
+	}
+
+	li a {
+		display: block;
+		width:80%;
+		background:#ddd;
+		padding:4% 10%;
+		font-size:1.35em;
+		text-decoration: none;
+	}*/
